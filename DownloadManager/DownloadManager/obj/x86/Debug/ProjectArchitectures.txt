@@ -1,0 +1,1 @@
+C:\Users\Maskarade\documents\visual studio 2015\Projects\DownloadManager\DownloadManager\DownloadManager.csproj;x86

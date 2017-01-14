@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="DownloadManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:DownloadManager"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <CommonNavigationTransitionInfo />
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+
+
+
+
+
+    <Grid Background="Gold">
+        <TextBlock
+            x:Name="Downloads"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            FontFamily="Assets/AmaticSC-Bold.ttf#Amatic SC"
+            FontSize="40"
+            FontWeight="Bold"
+            Text="Downloads" />
+        <TextBox
+            x:Name="textBox"
+            Width="360"
+            Margin="0,43,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="OrangeRed"
+            Text=""
+            TextWrapping="Wrap" />
+        <Button
+            x:Name="button"
+            Width="135"
+            Margin="115,80,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Save"
+            FontFamily="Assets/AmaticSC-Bold.ttf#Amatic SC"
+            FontSize="20"
+            FontWeight="Bold" />
+        <ListBox
+            x:Name="listBox"
+            Width="360"
+            Height="470"
+            Margin="0,120,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="OrangeRed" />
+
+
+
+
+
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar x:Name="BottomBar" Background="Gold">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton
+                    Name="btnBrowser"
+                    Click="Browser_Click"
+                    FontFamily="Assets/AmaticSC-Bold.ttf#Amatic SC"
+                    FontWeight="Bold"
+                    Icon="Globe"
+                    Label="Browser" />
+                <AppBarButton
+                    Name="btnSetting"
+                    Click="Settings_Click"
+                    FontFamily="Assets/AmaticSC-Bold.ttf#Amatic SC"
+                    FontWeight="Bold"
+                    Icon="Setting"
+                    Label="Settings" />
+            </CommandBar.PrimaryCommands>
+
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
