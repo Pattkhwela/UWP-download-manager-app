@@ -23,8 +23,12 @@
 
 
     <Grid Background="Gold">
+        <ProgressBar
+            x:Name="ProgressBar"
+            VerticalAlignment="Top"
+            Visibility="Collapsed" />
         <TextBlock
-            x:Name="Downloads"
+            x:Name="DownloadsTitle"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             FontFamily="Assets/AmaticSC-Bold.ttf#Amatic SC"
@@ -32,24 +36,41 @@
             FontWeight="Bold"
             Text="Downloads" />
         <TextBox
-            x:Name="textBox"
+            x:Name="txtLink"
             Width="360"
             Margin="0,43,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Background="OrangeRed"
-            Text=""
             TextWrapping="Wrap" />
         <Button
-            x:Name="button"
+            x:Name="DownloadButton"
             Width="135"
             Margin="115,80,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
+            Click="Download_Click"
             Content="Save"
             FontFamily="Assets/AmaticSC-Bold.ttf#Amatic SC"
             FontSize="20"
             FontWeight="Bold" />
+        <TextBlock
+            x:Name="txtDownloadCompleted"
+            Margin="100,203,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            FontSize="15"
+            Text="Download Complete"
+            TextWrapping="Wrap"
+            Visibility="Collapsed" />
+        <Button
+            x:Name="btnOpenFile"
+            Margin="100,226,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="btnOpenFile_Click"
+            Content="Open File"
+            Visibility="Collapsed" />
         <ListBox
             x:Name="listBox"
             Width="360"

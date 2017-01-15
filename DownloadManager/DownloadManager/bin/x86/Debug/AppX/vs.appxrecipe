@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Maskarade\documents\visual studio 2015\Projects\DownloadManager\DownloadManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-14T20:23:59.926</Modified>
+      <Modified>2017-01-15T16:57:32.423</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Maskarade\documents\visual studio 2015\Projects\DownloadManager\DownloadManager\bin\x86\Debug\DownloadManager.exe">
       <PackagePath>entrypoint\DownloadManager.exe</PackagePath>
-      <Modified>2017-01-14T20:23:59.586</Modified>
+      <Modified>2017-01-15T16:57:30.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maskarade\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maskarade\documents\visual studio 2015\Projects\DownloadManager\DownloadManager\bin\x86\Debug\DownloadManager.xr.xml">
       <PackagePath>DownloadManager.xr.xml</PackagePath>
-      <Modified>2017-01-14T20:22:34.587</Modified>
+      <Modified>2017-01-15T16:57:29.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -504,11 +504,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maskarade\documents\visual studio 2015\Projects\DownloadManager\DownloadManager\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-01-14T20:22:39.041</Modified>
+      <Modified>2017-01-15T16:57:31.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maskarade\documents\visual studio 2015\Projects\DownloadManager\DownloadManager\bin\x86\Debug\Core\DownloadManager.exe">
       <PackagePath>DownloadManager.exe</PackagePath>
-      <Modified>2017-01-14T20:23:59.922</Modified>
+      <Modified>2017-01-15T16:57:32.420</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

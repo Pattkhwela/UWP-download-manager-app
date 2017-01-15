@@ -35,9 +35,9 @@ namespace DownloadManager
                 {
                     web.Navigate(new Uri(value));
                 }
-                catch 
+                catch (Exception ex)
                 {
-                    
+                    throw;
                 }
                 web.Focus(Windows.UI.Xaml.FocusState.Keyboard);
             }
