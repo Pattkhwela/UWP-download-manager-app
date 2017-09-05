@@ -5,9 +5,6 @@
 The purpose of this project is to create a download manager that can work on all Windows 10 device form factors. The flexibility of the UWP code base allows this to be possible. The app was developed with a mobile first design approach and will be further integrated into a desktop and Xbox UI/UX layout in future versions. 
 
 
-```
-Give an example
-```
 
 ## This app will work in Visual Studio 2015 or later and requires the Windows 10 TH2 SDK or later to work.
 
